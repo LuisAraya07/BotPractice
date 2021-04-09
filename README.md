@@ -1,12 +1,12 @@
 ﻿#BOT Pokémon-Cédula
-| <div height="400" width="300">![Alt text](./readme/botOptions.png)</div> |
+ <div height="400" width="300">![Alt text](./readme/botOptions.png)</div> 
 
 
 #Cédula
 Bot para consultar el nombre de una persona costarricense con la cédula desde https://www.jps.go.cr/productos/loteria-nacional
 
 #Prueba
-| <div height="400" width="300">![Alt text](./readme/botCedula.png)</div> |
+<div height="400" width="300">![Alt text](./readme/botCedula.png)</div> 
 
 
 
@@ -15,4 +15,4 @@ Bot para consultar los stats de un pokémon utilizando el pokeapi https://pokeap
 
 
 #Prueba
-| <div height="600" width="300">![Alt text](./readme/botPokemon.png)</div> |
+<div height="600" width="300">![Alt text](./readme/botPokemon.png)</div> 
