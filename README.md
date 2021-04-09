@@ -3,7 +3,7 @@
 
 
 #Cédula
-Bot para consultar el nombre de una persona costarricense con la cédula desde https://www.jps.go.cr/productos/loteria-nacional
+Bot para consultar el nombre de una persona costarricense con la cédula desde https://apis.gometa.org/cedulas/
 
 #Prueba
 |<div height="400" width="300">![Alt text](./readme/botCedula.png)</div> |
