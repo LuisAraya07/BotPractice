@@ -1,0 +1,116 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "${pokemon.name}",
+          "weight": "bolder",
+          "size": "medium"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "${pokemon.sprites.front_default}",
+                  "size": "large",
+                  "style": "person"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "${pokemon.sprites.back_default}",
+                  "size": "large",
+                  "style": "person"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${pokemon.types[0].type.name}",
+                  "weight": "bolder",
+                  "size": "large"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "",
+                  "weight": "bolder",
+                  "size": "large"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "${secondType}",
+                  "weight": "bolder",
+                  "size": "large"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "FactSet",
+          "facts": [
+            {
+              "title": "HP: ${hp}"
+            },
+            {
+              "title": "Attack: ${attack}"
+            },
+            {
+              "title": "Defense: ${defense}"
+            },
+            {
+              "title": "Special-Attack: ${spAttack}"
+            },
+            {
+              "title": "Special-Defense: ${spDefense}"
+            },
+            {
+              "title": "Speed: ${speed}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
